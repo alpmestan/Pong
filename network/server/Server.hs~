@@ -1,8 +1,0 @@
-import Control.Concurrent
-import Control.Exception
-import IO
-import Network
-import Network.Socket.ByteString
-
-main = withSocketsDo $ do
-    listenOn (PortNumber 
